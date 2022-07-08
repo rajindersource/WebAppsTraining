@@ -1,0 +1,10 @@
+API vs GUI
+API requires high technical skills
+API tests are faster
+API communicates between programs
+API is cheaper
+API requires much resources
+API provides more flexibility and innovations
+Web API, Internal API, Open API
+
+

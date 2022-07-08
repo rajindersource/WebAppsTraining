@@ -1,0 +1,96 @@
+ASSIGNMENT 1
+
+1.How HTTPS works behind the scene?
+
+HTTP exchanges resources between server & client using REQUEST RESPONSE stateless method
+HTTPS uses Transport Layer Security (TLS) or Secure Sockets Layer (SSL) as a sublayer to HTTP application layering. It encrypts and decrypts user HTTP transmission data. Encryption protects against many cyber attacks.
+HTTPS REQUEST contains:
+A URL: It is the data which locates a resource on the web, gives a exact path to its location.
+A Protocol: This shows the specific action that the request expects to receive from the server in its response.
+Headers: It includes data such as what type of browser is being used. It also includes cookies, which show information previously sent from the server handling.
+A body: This is optional information the client needs from the request, such as user forms -- username/password logins etc.
+
+HTTP RESPONSE contains: The HTTP response message is the data received by a client device from the web server. Ususally it is same as Request but with additional content in the body.
+
+2. What are different http methods available and what they exactly do.
+
+HTTP request methods indicate the desired action to be performed. Each method has a different syntax but common features like safe, cacheable.
+HTTP methods:
+GET
+The GET method requests a representation of the specified resource to retrieve data.
+HEAD
+The HEAD method asks for a response similar to GET request, but without the response body.
+POST
+The POST method is used to submit an entity at the specified resource, this method often causing a change in state on the server.
+PUT
+The PUT method replaces all current representations of the target resource with the request payload.
+DELETE
+The DELETE method deletes the specified resource on server.
+CONNECT
+The CONNECT method establishes a tunnel to the server that is identified by the target resource.
+OPTIONS
+The OPTIONS method describes the communication options for the target resource.
+TRACE
+The TRACE method performs a message loop-back test along the path to the target resource.
+PATCH
+The PATCH method applies partial modifications to a resource.
+
+3. Explain the use of various http response codes.
+
+HTTP response codes are used to track the status of the request sent by the client to the server. 
+The Responses are:
+Informational responses (100-199)
+Success responses (200-299)
+Redirection (300-399)
+Client errors (400-499)
+Servers errors (500-599)
+
+Some of the basic response codes are -
+200 OK. 
+300 Url Moved Permanently. 
+401 Unauthorized. 
+403 Forbidden. 
+404 Not Found. 
+500 Internal Server Error. 
+
+4. What are the different web communication protocols and their use cases?
+
+A protocol is a set of rules how a particular technology will function for communication. A sort of digital language implemented in the form of algorithms. 
+
+Different communication protocols are :
+Transmission Control Protocol (TCP) : It divides any message into series of packets that are sent from source to destination and there it gets reassembled at the destination.
+Internet Protocol (IP) : Mostly it is used with TCP. The IP addresses in packets help in routing them through different nodes in a network until it reaches the destination system.
+User Datagram Protocol (UDP): It is implemented primarily for creating loss-tolerating and low-latency linking between different applications.
+Post office Protocol (POP): It is designed for receiving incoming E-mails.
+Simple mail transport Protocol (SMTP) : It is designed to send and distribute outgoing E-Mail.
+File Transfer Protocol (FTP): It allows users to transfer files from one machine to another.
+Hyper Text Transfer Protocol (HTTP): It is designed for transferring a hypertext among two or more systems.
+Hyper Text Transfer Protocol Secure (HTTPS) : It is a standard protocol to secure the communication among two computers i.e. between client’s browser & server.
+Telnet: These are the set of rules designed for connecting one system with another.
+Gopher : These are the collection of rules implemented for searching, retrieving as well as displaying documents.
+
+5. Pros and cons of Single page and multi page applications.
+
+A Single Page application is a single page received from server that continuously interacts with the user by dynamically rewriting the current page rather than loading entire new pages from a server. As it makes the changes into the same page only in parts, which provides early interaction with the page.
+eg. Facebook, Gmail, and Twitter 
+Pros of SPA:
+Quick Loading Time
+Seamless User Experience
+Ease in Building Feature-rich Apps
+Uses Less Bandwidth
+Cons of SPA:
+Doesn’t Perform Well With SEO
+Uses a Lot of Browser Resources
+Security Issues
+
+Multi-page Application:
+It is the application consisting of many pages completely refreshed every time when data changes. A multi-page website is a more complex website that contains multiple different pages like an eCommerce store. Eg Amazon or eBay.
+
+Pros of MPA :
+Better SEO
+Unlimited scalability
+Better Insights from Analytics
+Cons of MPA :
+Slower speed and overall performance
+More time for development
+Harder maintenance and updates

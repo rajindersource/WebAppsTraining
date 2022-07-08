@@ -1,0 +1,15 @@
+HTTP vs HTTPs
+HTTP transfer data in url as clear text and can be read by anyone.
+Do not scramble data
+Port 80
+Can be used for non personal info websites (blogs, information sites)
+uses TCP/IP
+Somewhat quicker
+
+
+HTTPs communicates using SSL. 
+Port 443
+Scrambled data
+Uses TLS/SSL over TCP/IP
+Quick Ranking on google
+Little slower

@@ -1,0 +1,16 @@
+3 Tier Web Apps (Eg AWS)
+Client layer
+Logic Layer
+Data layer
+More secure and scalable
+
+2 Tier Web Apps (Eg fB)
+Client Layer
+Server layer
+
+P2P Model (Eg chat tools Skype)
+Decentralized system, All systems are equal.
+Direct communication among each other.
+Both are client and
+Both are servers
+Both don't need to be up all the time

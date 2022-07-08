@@ -1,0 +1,17 @@
+Single Page App:
+One HTML file from server, in first time visit
+Then all components are handled by javascript
+No more going back for getting html
+Fast loading
+Easily debuggable in browser
+Offline worked
+Can be converted into mobile app
+
+It can be vulnerable
+depends on javascript
+
+MultiPage Apps:
+muliple DOM calls
+
+SEO friendly
+But difficult to convert into mobile Apps

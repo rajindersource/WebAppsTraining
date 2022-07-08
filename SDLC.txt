@@ -1,0 +1,7 @@
+SDLC(Properly defined methodology/Stages of develpoment of desired product)
+1. Requirement gathering (Product owner gets requirements in a document called BRD
+2. Analysis (Dev lead & QA lead take BRD as entry criteria and will prepre FSD as exit criteria)
+3. Design/Planning (Study BRD as entry criteria and release for HLD/LLD as exit criteria)
+4. Devlopment/Coding (Approved BRD, HLD/LLD and exit criteria as exe files.)
+5. Testing (BRD,HLD/LLD, Deployed Build and exit crietria is test cases, defects and closure)
+6. Deployment/Maintenance (production and support team)

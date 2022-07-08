@@ -1,0 +1,40 @@
+1. Hyper Text Transfer Protocol
+Core communications protocol
+Works over TCP, http uses tunnels created by TCP
+
+2. HTTP Request
+Pckt which asks to connect/load something from a server
+GET/POST methods
+Parts of HTTP request;
+a. Request line
+b. Headers
+c. body
+
+3. HTTP Response
+Pckt providing permissions to access website or content
+Parts of HTTP response:
+a. Status line
+b. Headers
+c. body
+
+4. Types of Request Methods
+GET
+HEAD
+POST
+PUT
+DELETE
+OPTIONS
+TRACE
+CONNECT
+
+5. URL
+Unique identifier or locator
+protocol://hostname[:port]/path/file[?param]
+
+6. REST
+
+Representational state transfer
+It is guidelines for web apps
+Rest Web APIs
+Rest is followed by URLs & Http Packets
+

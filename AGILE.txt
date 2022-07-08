@@ -1,0 +1,29 @@
+Agile reduces risk and increases productivity on the go while project is being developed.
+Waterfall model:
+a. Planning (lengthy)
+b. Building
+c. Testing
+
+Limitation is Change...
+
+Agile model(Iterative method makes it more adaptive, works in sprints):
+a. Planning (Small planning just to get on a shippable product, Requirements are concsie and short- User stories collected in Backlog)
+b. Building (Small and simple)
+c. Testing (Small builds)
+
+This cycle is repeated over and over. And there is always some product to deliver after a sprint....
+
+Roles in Scrum:
+a. Product owner: Bright ideas
+b. Scrum master: Leader 
+c. Team
+
+Documents in scrum:
+a. Product backlog
+b. Sprint backlog
+c. Burndown chart
+
+Meetings in scrum:
+a. Sprint planning
+b. daily scrum
+c. sprint review
