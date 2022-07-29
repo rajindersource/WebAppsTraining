@@ -12,5 +12,5 @@ touch .gitignore
       git status
       git branch -M main
       copy SSH link from github
-      git remote add origin(space)paste the link (git@github.com:rajindersource/WebAppsTrainingAssignment1.git)
+      git remote add origin(space)paste the link of new repository (git@github.com:rajindersource/WebAppsTrainingAssignment1.git)
       git push -u origin main
