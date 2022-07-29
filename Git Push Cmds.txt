@@ -1,0 +1,16 @@
+Open the folder of project.
+Create gitignore and write folder/file name. Save as txt.
+
+Create new repository in Github.
+ 
+Open GitBash fom this folder and follow cmnds:
+
+touch .gitignore
+      git init
+      git add .
+      git commit -m "initial commit"
+      git status
+      git branch -M main
+      copy SSH link from github
+      git remote add origin(space)paste the link (git@github.com:rajindersource/WebAppsTrainingAssignment3.git)
+      git push -u origin main
