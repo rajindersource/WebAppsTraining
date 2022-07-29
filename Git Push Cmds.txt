@@ -1,5 +1,5 @@
 Open the folder of project.
-Create gitignore and write folder/file name. Save as txt.
+Create gitignore and write folder/file name to be ignored. Save as txt.
 
 Create new repository in Github.
  
@@ -12,5 +12,5 @@ touch .gitignore
       git status
       git branch -M main
       copy SSH link from github
-      git remote add origin(space)paste the link (git@github.com:rajindersource/WebAppsTrainingAssignment3.git)
+      git remote add origin(space)paste the link (git@github.com:rajindersource/WebAppsTrainingAssignment1.git)
       git push -u origin main
